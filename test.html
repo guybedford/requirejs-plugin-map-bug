@@ -1,0 +1,15 @@
+<html>
+<script>
+  var require = {
+    baseUrl: 'lib',
+    map: {
+      '*': {
+        'coffee': 'cs'
+      }
+    }
+  };
+</script>
+<script src="require.js"></script>
+<script>
+  require(['coffee!app/test']);
+</script>
